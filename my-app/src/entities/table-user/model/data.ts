@@ -9,14 +9,14 @@ export const user: IUser[] = [
 	},
 	{
 		id: 2,
-		name: 'Maks Donfort',
-		email: 'maks@donfort.com',
+		name: 'Grick Rust',
+		email: 'rust@donfort.com',
 		status: false,
 	},
 	{
 		id: 3,
-		name: 'Maks Donfort',
-		email: 'maks@donfort.com',
+		name: 'Linux Torvalds',
+		email: 'linux@donfort.com',
 		status: false,
 	},
 ]

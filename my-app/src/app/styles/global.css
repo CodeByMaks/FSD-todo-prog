@@ -120,3 +120,59 @@ tr:hover {
 	padding: 50px 0px;
 	margin: auto;
 }
+
+@media (max-width: 768px) {
+	.header {
+		width: 90%;
+		flex-direction: column;
+		gap: 10px;
+		padding: 10px 0px;
+	}
+
+	.button {
+		padding: 8px 20px;
+		font-size: 14px;
+	}
+
+	table {
+		width: 100%;
+		display: block;
+		overflow-x: auto;
+	}
+
+	th,
+	td {
+		padding: 10px;
+		font-size: 14px;
+	}
+
+	.table__button {
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	.button__edit,
+	.button__delete {
+		padding: 5px 8px;
+		font-size: 12px;
+	}
+
+	.modal__interface {
+		gap: 20px;
+	}
+
+	.modal__interface input {
+		width: 90%;
+		padding: 8px;
+	}
+
+	.modal__interface select {
+		width: 100%;
+		padding: 8px 20px;
+	}
+
+	.tool__user {
+		width: 90%;
+		padding: 20px 0px;
+	}
+}

@@ -1,3 +1,3 @@
-export function deleteUser(data:object, id:number | string){
-	return data.filter((elem:object)=> elem.id != id)
+export function deleteUser(data, id:number | string){
+	return data.filter((elem)=> elem.id != id)
 }
