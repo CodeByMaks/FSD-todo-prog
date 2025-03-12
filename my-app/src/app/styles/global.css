@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+	width: 75%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0px;
+}
+
+.button {
+	padding: 10px 30px;
+	border: none;
+	border-radius: 10px;
+	background-color: blue;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.header__text--blue {
+	color: blue;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+	width: 75%;
+	margin: auto;
+	border-collapse: collapse;
+	overflow-x: auto;
+}
+
+th,
+td {
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid rgba(182, 179, 179, 0.301);
+}
+
+th {
+	background-color: rgba(240, 237, 237, 0.311);
+	font-weight: bold;
+}
+
+tr {
+	transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+tr:hover {
+	transform: scale(1.01);
+	background-color: rgba(240, 237, 237, 0.3);
+}
+
+.table__button {
+	display: flex;
+	gap: 10px;
+}
+
+.button__edit {
+	padding: 5px 10px;
+	border: none;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.button__delete {
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	border-radius: 5px;
+	background-color: red;
+}
+
+.text__bgred {
+	background-color: red;
+	padding: 2px 5px;
+	border-radius: 10px;
+	color: white;
+}
+
+.text__bggreen {
+	background-color: green;
+	padding: 2px 5px;
+	border-radius: 10px;
+	color: white;
+}
+
+.modal__interface {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.modal__interface input {
+	padding: 10px 10px;
+	width: 300px;
+	border-radius: 10px;
+	border: 1px solid gray;
+}
+
+.modal__interface select {
+	padding: 10px 30px;
+	width: 150px;
+	border-radius: 10px;
+}
+
+.tool__user {
+	width: 75%;
+	padding: 50px 0px;
+	margin: auto;
+}
